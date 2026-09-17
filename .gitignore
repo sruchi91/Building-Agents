@@ -1,0 +1,20 @@
+# Virtual environments (NEVER commit these)
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Environment / secrets (if you use .env files)
+.env
+.env.local
+
+# Build / distribution (optional but common)
+dist/
+build/
+*.egg-info/
